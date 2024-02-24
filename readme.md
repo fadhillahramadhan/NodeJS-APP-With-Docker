@@ -7,7 +7,7 @@
 
 - Install Docker
 - Copy Repo Ini Ke lokal
-- Jalankan "docker compose"
+- Jalankan "docker compose up"
 
 ## Testing Aplikasi
 
