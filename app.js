@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', (req, res) => {
     const connection = mysql.createConnection({
-        host: 'localhost',
+        host: 'mysql', // Use the service name defined in Docker Compose
         user : 'root',
         password: 'root',
     });
